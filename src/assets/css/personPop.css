@@ -1,0 +1,141 @@
+.personPop{
+	position:fixed;
+	top:0;
+	width:100%;
+	height:100%;
+	background:rgba(0,0,0,.5);
+	z-index:200;
+}
+.popcontent{
+	position:fixed;
+	top:0;
+	bottom:0;
+	left:0;
+	right:0;
+	width:560px;
+	height:650px;
+	background:#fff;
+	margin:auto;
+	padding:40px;
+	border-radius: 10px;
+}
+.popcontent .title{
+	height:140px;
+	overflow:hidden;
+}
+.popcontent .title span{
+	display: inline-block;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #282828;
+    color: #fff;
+    line-height:140px;
+    float:left;
+    text-align:center;
+}
+.popcontent .title em{
+	float:left;
+	line-height:180px;
+	font-weight:600;
+}
+.popcontent .title i{
+	font-size:40px;
+	position:absolute;
+	right:20px;
+	top:0px;
+	cursor:pointer;
+}
+.popcontent .center div{
+	width:100%;
+	height:46px;
+	border:1px solid #ddd;
+	border-radius: 20px;
+	line-height:46px;
+	margin-top:20px;
+	text-align:left;
+}
+.popcontent .center div label{
+	display:inline-block;
+	font-size:16px;
+	width:90px;
+	height:18px;
+	text-align:right;
+	padding-right:10px;
+	box-sizing: border-box;
+	float:left;
+	line-height:46px;
+}
+.popcontent .center div input{
+	width:calc(100% - 95px);
+	height:100%;
+	float:left;
+	border:0;
+	padding-left:10px;
+	background:transparent;
+}
+.popcontent .center div i{
+	display:inline-block;
+	width:2px;
+	height:18px;
+	background:#e7e7e7;
+	float:left;
+	margin-top:14px;
+	
+}
+.popcontent .center .codeDiv input{
+	width:calc(100% - 220px);
+}
+.popcontent .center .codeDiv span{
+	display:inline-block;
+	width:100px;
+	height:46px;
+	font-size:14px;
+	float:right;
+	margin-right:20px;
+	cursor: pointer;
+	text-align:center;
+}
+.popcontent .center .codeDiv span img{
+	width:100%;
+	height:40px;
+	margin-top:-5px;
+}
+.popcontent .center button{
+	position:absolute;
+	right:40px;	
+	bottom:40px;
+	width:180px;
+	height:36px;
+	color:#fff;
+	background:#ff5d5e;
+	border-radius:20px;
+	border:0;
+	
+}
+.popcontent .center .address{
+	display:flex;
+	border:0;
+	border-radius:0;
+	justify-content: space-between;
+}
+.popcontent .center .address select{
+	width:140px;
+	border:1px solid #ddd;
+	border-radius:25px;
+	padding-left:10px;
+}
+.popcontent .center .bank select{
+	width:calc(100% - 95px);
+	height:100%;
+	background:transparent;
+	border:0;
+	padding-left:10px;
+}
+.popcontent .center p{
+	font-size:16px;
+	line-height:30px;
+	margin:0;
+	text-align:left;
+	padding-left:20px;
+}

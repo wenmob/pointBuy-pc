@@ -1,0 +1,84 @@
+.moneyContent{
+	text-align:center;
+	padding:40px 20px;
+	font-size:16px;
+	color:#282828;
+}
+.moneyContent .inputMoney .moneyTit strong{
+	font-size:30px;
+}
+.moneyContent .inputMoney .moneyTit{
+	border-bottom:1px dashed #ddd;
+	padding-bottom:40px;
+}
+.moneyContent .inputMoney .inputCenter{
+	padding-top:40px;
+}
+.moneyContent .inputMoney .inputCenter input{
+	width:360px;
+	height:48px;
+	border-radius:30px;
+	border:1px solid #ddd;
+	padding-left:20px;
+}
+.moneyContent .inputMoney .inputCenter select{
+	width:360px;
+	height:48px;
+	border-radius:30px;
+	border:1px solid #ddd;
+	padding-left:20px;
+}
+
+.moneyContent .inputMoney .inputCenter button{
+	width:360px;
+	height:48px;
+	border-radius:30px;
+	background:#ff5d5e;
+	border:0;
+	color:#fff;
+}
+.moneyContent .codeMoney strong{
+	font-size:60px;
+}
+.moneyContent .codeMoney .code{
+	width:280px;
+	height:280px;
+	border:1px solid #ddd;
+	margin:0 auto;
+}
+.moneyContent .codeMoney .code img{
+	width:273px;
+	height:273px;
+}
+.moneyContent .codeMoney .info{
+	width:280px;
+	height:80px;
+	background:#5bc1d7;
+	margin:10px auto;
+	display:flex;
+	align-items: center;
+}
+.moneyContent .codeMoney .info img{
+	width:62px;
+	height:62px;
+	margin:0 40px 0 20px;
+}
+.moneyContent .codeMoney .info div{
+	color:#fff;
+	text-align:left;
+	display:flex;
+	flex-direction: column;
+}
+.moneyContent .codeMoney .info div p{
+	margin:0;
+}
+
+.moneyContent .codeMoney .time span{
+	display:inline-block;
+	width:60px;
+	height:24px;
+	background:#5bc1d7;
+	color:#fff;
+	border-radius:20px;
+	margin-top:20px;
+}

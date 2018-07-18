@@ -1,0 +1,150 @@
+	.popContainer{
+		position:fixed;
+		top:0;
+		width:100%;
+		height:100%;
+		background:rgba(0,0,0,.5);
+		/*z-index:200;*/
+	}
+	.popContainer .popContent{
+		position:fixed;
+		top:0;
+		left:0;
+		right:0;
+		bottom:0;
+		margin:auto;
+		width:500px;
+		height:650px;
+		background:#fff;
+		border-radius: 10px;
+	}
+	.popContainer .popContent .close{
+		position:absolute;
+		top:10px;
+		right:20px;
+		font-size:30px;
+	}
+
+	.popContainer .title{
+		padding: 40px;
+		height:180px;
+		overflow:hidden;
+	}
+	.popContainer .title span{
+		display: inline-block;
+	    width: 100px;
+	    height: 100px;
+	    border-radius: 50%;
+	    background: #282828;
+	    color: #fff;
+	    line-height:140px;
+	    float:left;
+	    text-align:center;
+	}
+	.popContainer .title em{
+		float:left;
+		line-height:180px;
+		font-weight:600;
+		font-size: 24px;
+		margin-left: 10px;
+	}
+	.popContainer .title i{
+		font-size:40px;
+		position:absolute;
+		right:20px;
+		top:0px;
+		cursor:pointer;
+	}
+
+	.popContainer .center{
+		padding: 0 40px;
+	}
+	.popContainer .center div{
+		width:100%;
+		height:46px;
+		border:1px solid #ddd;
+		border-radius: 23px;
+		line-height:46px;
+		margin-top:20px;
+		text-align:left;
+	}
+	.popContainer .center div label{
+		display:inline-block;
+		font-size:16px;
+		width:90px;
+		height:18px;
+		text-align:right;
+		padding-right:10px;
+		box-sizing: border-box;
+		float:left;
+		line-height:46px;
+	}
+	.popContainer .center div input{
+		width:calc(100% - 95px);
+		height:100%;
+		float:left;
+		border:0;
+		padding-left:10px;
+		background:transparent;
+	}
+	.popContainer .center div i{
+		display:inline-block;
+		width:2px;
+		height:18px;
+		background:#e7e7e7;
+		float:left;
+		margin-top:14px;
+	}
+	#login_but{
+		position: relative;
+		top: 0;
+		left: 0px;
+		width: 420px;
+		height:46px;
+		border-radius: 23px;
+		line-height:46px;
+		text-align:center;
+		background: #ff5d5e;
+		border:0;
+		color: #fff;
+		font-size: 20px;
+		font-weight: 500;
+	}
+	.popContainer .center p{
+		margin-top: 40px;
+		font-size: 14px;
+		color: #bbb;
+	}
+	.popContainer .center p:hover{
+		color: #282828;
+	}
+	.popContainer .center button{
+		position:absolute;
+		right:40px;	
+		bottom:40px;
+		width:180px;
+		height:36px;
+		color:#fff;
+		background:#ff5d5e;
+		border-radius:20px;
+		border:0;	
+	}
+	.popContainer .center .codeDiv input{
+		width:calc(100% - 220px);
+	}
+	.popContainer .center .codeDiv span{
+		display:inline-block;
+		width:100px;
+		height:46px;
+		font-size:14px;
+		float:right;
+		margin-right:20px;
+		cursor: pointer;
+		text-align:center;
+	}
+	.popContainer .center .codeDiv span img{
+		width:100%;
+		height:40px;
+		margin-top:-5px;
+	}
+	
